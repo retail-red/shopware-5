@@ -9,20 +9,20 @@
         <service id="retailred_storefront.subscriber.template_registration"
                  class="SgateClickAndReserve\Subscriber\TemplateRegistration">
             <argument type="service" id="template"/>
-            <argument>%retailred_storefront.plugin_dir%</argument>
+            <argument>%sgate_click_and_reserve.plugin_dir%</argument>
             <tag name="shopware.event_subscriber"/>
         </service>
 
         <service id="retailred_storefront.subscriber.less_subscriber"
                  class="SgateClickAndReserve\Subscriber\LessSubscriber">
-            <argument>%retailred_storefront.plugin_dir%</argument>
+            <argument>%sgate_click_and_reserve.plugin_dir%</argument>
             <tag name="shopware.event_subscriber"/>
         </service>
 
         <service id="retailred_storefront.subscriber.detail_subscriber"
                  class="SgateClickAndReserve\Subscriber\DetailSubscriber">
             <argument type="service" id="shopware.plugin.config_reader"/>
-            <argument>%retailred_storefront.plugin_name%</argument>
+            <argument>%sgate_click_and_reserve.plugin_name%</argument>
             <tag name="shopware.event_subscriber"/>
         </service>
 
