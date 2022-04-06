@@ -26,5 +26,13 @@
             <tag name="shopware.event_subscriber"/>
         </service>
 
+        <service id="retailred_storefront.subscriber.config_subscriber" class="SgateClickAndReserve\Subscriber\ConfigSubscriber">
+            <argument type="service" id="corelogger" />
+            <argument type="service" id="Shopware\Components\CacheManager"/>
+            <argument type="service" id="http_client"/>
+            <argument>%sgate_click_and_reserve.plugin_name%</argument>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+
     </services>
 </container>

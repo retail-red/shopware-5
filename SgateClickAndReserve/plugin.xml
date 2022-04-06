@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
-    <label lang="de">retail.red for Shopware 5</label>
-    <label lang="en">retail.red for Shopware 5</label>
-
+    <label lang="de"><![CDATA[Shopgate - Click & Reserve]]></label>
+    <label><![CDATA[Shopgate - Click and Reserve]]></label>
     <version>1.2.2</version>
     <copyright>(c) by Shopgate GmbH</copyright>
     <license>proprietary</license>
@@ -16,79 +15,79 @@
 
     <changelog version="1.2.2">
         <changes lang="de">
-           - added custom template blocks
+           added custom template blocks
         </changes>
-        <changes lang="en">
-            - added custom template blocks
+        <changes>
+            added custom template blocks
         </changes>
     </changelog>
 
     <changelog version="1.2.1">
         <changes lang="de">
-            - using header.tpl instead of index.tpl now
-            - added encoding
+            using header.tpl instead of index.tpl now
+            added encoding
         </changes>
-        <changes lang="en">
-            - using header.tpl instead of index.tpl now
-            - added encoding
+        <changes>
+            using header.tpl instead of index.tpl now
+            added encoding
         </changes>
     </changelog>
 
     <changelog version="1.2.0">
         <changes lang="de">
-            - new config `saveCustomerData`
-            - LESS style mapping
-            - changed default value of `reserveButtonClasses`
+            new config `saveCustomerData`
+            LESS style mapping
+            changed default value of `reserveButtonClasses`
         </changes>
-        <changes lang="en">
-            - new config `saveCustomerData`
-            - LESS style mapping
-            - changed default value of `reserveButtonClasses`
+        <changes>
+            new config `saveCustomerData`
+            LESS style mapping
+            changed default value of `reserveButtonClasses`
         </changes>
     </changelog>
 
     <changelog version="1.1.0">
         <changes lang="de">
-            - new config to define button classes
-            - changed color configs
-            - using [new v2](https://github.com/retail-red/storefront-library/blob/master/CHANGELOG.md) of the storefront library
-            - fixed various style issues
+            new config to define button classes
+            changed color configs
+            using [new v2](https://github.com/retail-red/storefront-library/blob/master/CHANGELOG.md) of the storefront library
+            fixed various style issues
         </changes>
-        <changes lang="en">
-            - new config to define button classes
-            - changed color configs
-            - using [new v2](https://github.com/retail-red/storefront-library/blob/master/CHANGELOG.md) of the storefront library
-            - fixed various style issues
+        <changes>
+            new config to define button classes
+            changed color configs
+            using [new v2](https://github.com/retail-red/storefront-library/blob/master/CHANGELOG.md) of the storefront library
+            fixed various style issues
         </changes>
     </changelog>
 
     <changelog version="1.0.3">
         <changes lang="de">
-            - improved variant handling
+            improved variant handling
         </changes>
-        <changes lang="en">
-            - improved variant handling
+        <changes>
+            improved variant handling
         </changes>
     </changelog>
 
     <changelog version="1.0.2">
         <changes lang="de">
-            - new product.options format
-            - product.identifiers.ean
+            new product.options format
+            product.identifiers.ean
         </changes>
-        <changes lang="en">
-            - new product.options format
-            - product.identifiers.ean
+        <changes>
+            new product.options format
+            product.identifiers.ean
         </changes>
     </changelog>
 
     <changelog version="1.0.1">
         <changes lang="de">Bugfix</changes>
-        <changes lang="en">Bugfix</changes>
+        <changes>Bugfix</changes>
     </changelog>
 
     <changelog version="1.0.0">
         <changes lang="de">Erstveröffentlichung</changes>
-        <changes lang="en">First release</changes>
+        <changes>First release</changes>
     </changelog>
 </plugin>

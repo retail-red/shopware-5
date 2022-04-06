@@ -5,7 +5,7 @@
     {block name='frontend_index_header_javascript_tracking_rerail_red'}
         {if $rrConfig.displayType != 'disabled'}
             {block name='frontend_index_header_javascript_tracking_rerail_red_libary'}
-                <script type='text/javascript'
+                <script async type='text/javascript'
                         src='https://cdn.retail.red/omni/retailred-storefront-library-v2.js'></script>
             {/block}
             {block name='frontend_index_header_javascript_tracking_rerail_red_javascript'}
@@ -132,7 +132,9 @@
                                     }
 
                                     var newVariant = variants.map(function (variant) {
+                                        {literal}
                                         var selected_value = values[`group[${variant.groupID}]`]
+                                        {/literal}
 
                                         if (!selected_value) {
                                             return null;
