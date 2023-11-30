@@ -10,7 +10,7 @@ The script adds a “reserve” button to the product detail page, via which a n
 1. Open the config of our plugin and enter your Storefront API Key (Shopgate Admin -> Settings -> General -> Storefront API Key)
 
 ## Configuration
-Our plugin comes with a bunch of configuration options. The only setting that you must setup there is your API Key.
+Our plugin comes with a bunch of configuration options. The only setting that you must set up there is your API Key.
 You will find your key in our admin in Settings -> General -> Storefront API Key
 
 All other settings are optional. 
