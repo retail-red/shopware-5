@@ -6,7 +6,7 @@
         {if $rrConfig.displayType != 'disabled'}
             {block name='frontend_index_header_javascript_tracking_rerail_red_libary'}
                 <script async type='text/javascript'
-                        src='https://cdn.retail.red/omni/retailred-storefront-library-v2.js'></script>
+                        src='https://cdn.retail.red/omni/retailred-storefront-library-v3.js'></script>
             {/block}
             {block name='frontend_index_header_javascript_tracking_rerail_red_javascript'}
                 <script>
